@@ -4,5 +4,5 @@ import math
 
 
 def floor(n: float) -> int:
-    """hm"""
+    """Docstring for floor"""
     return math.floor(n)
