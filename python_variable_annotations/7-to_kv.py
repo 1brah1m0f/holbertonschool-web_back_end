@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Docstring for python_variable_annotations.7-to_kv"""
+"""Module for to_kv function."""
 
-from typing import List, Union
+from typing import Tuple, Union
 
-def to_kv(k: str, v(union(int, float))) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """Return a tuple with a string and the square of a number."""
     return (k, float(v * v))
