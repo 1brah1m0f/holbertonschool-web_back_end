@@ -3,5 +3,5 @@
 
 from typing import List, Union
 
-def to_kv(k: str, union(int, float)) -> tuple[str, float]:
+def to_kv(k: str, v: int | float) -> tuple[str, float]:
     return (k, float(v * v))
