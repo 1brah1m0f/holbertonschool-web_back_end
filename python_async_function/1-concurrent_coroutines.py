@@ -14,6 +14,7 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     :param max_delay: Maksimum gözləmə vaxtı
     :type max_delay: int
     """
+
     tasks = [wait_random(max_delay) for _ in range(n)]
 
     delays = []
