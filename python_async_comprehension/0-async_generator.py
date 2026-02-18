@@ -2,6 +2,7 @@
 """Docstring for python_async_comprehension.0-async_generator"""
 import asyncio
 import random
+from typing import Generator
 
 async def async_generator() -> Generator[float, None, None]:
     """Docstring for async_generator"""
